@@ -1,0 +1,24 @@
+@import 'variable';
+@import 'global/global';
+
+
+.welcome-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:10px;
+    border-radius:5px;
+    background-color:rgba($main-color3,0.7);
+    color:$main-color4;
+    @media #{$tablet} {
+        max-width: 500px;
+        margin:20px;
+    }
+
+    svg {
+        color:$main-color1;
+        font-size:120px;
+    }
+
+}

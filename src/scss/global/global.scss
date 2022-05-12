@@ -1,0 +1,38 @@
+
+
+@font-face {
+  font-family: $font-style-main-default;
+  src: url($main-path-fonts+'Muli-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url($main-path-fonts+'Muli-Light.woff') format('woff'); /* Legacy iOS */
+       font-weight: normal;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: $font-style-main-header;
+  src: url($main-path-fonts+'RobotoSlab-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url($main-path-fonts+'RobotoSlab-Bold.woff') format('woff'); /* Legacy iOS */
+       font-weight: normal;
+       font-style: normal;
+}
+
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+    line-height: 25px;
+    font-family: $font-style-simple;
+    padding: 0;
+    background:url($main-path-images+'background.jpg') no-repeat;
+    background-size:cover;
+    color:$main-color5;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: $font-style-fancy;
+	line-height: 1;
+}
