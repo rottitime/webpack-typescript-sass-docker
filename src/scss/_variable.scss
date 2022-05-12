@@ -1,0 +1,24 @@
+//urls
+
+$main-path-images: "../images/" !default;
+$main-path-fonts: "./fonts/" !default;
+
+//Media queries
+$tablet: "only screen and (min-width: 768px)";
+$desktop: "only screen and (min-width: 1000px)";
+
+//Site colours
+$main-color1: #0b3c5d;	//Prussian blue
+$main-color2: #328cc1;	//Sky blue
+$main-color3: #d98310;	//Gold leaf
+$main-color4: #1d2731;	//ivory black
+$main-color5: #fff;	//white
+
+
+
+$font-style-main-header: 'rottitime header';
+$font-style-main-default: 'rottitime default';
+
+$font-style-simple: $font-style-main-default, 'Open Sans', sans-serif;
+$font-style-fancy: $font-style-main-header, sans-serif;
+
